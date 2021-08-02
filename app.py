@@ -8,7 +8,7 @@ model = joblib.load('dib_79.pkl')
 
 @app.route('/')
 def root1():
-    return render_template('welcome.html')
+    return render_template('home.html')
 
 @app.route('/home')
 def home():
